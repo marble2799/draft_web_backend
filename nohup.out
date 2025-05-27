@@ -1,0 +1,102 @@
+warning: unreachable statement
+   --> src/main.rs:120:9
+    |
+118 |         todo!();
+    |         ------- any code following this expression is unreachable
+119 |         // draftテーブルを初期化する
+120 |         todo!();
+    |         ^^^^^^^ unreachable statement
+    |
+    = note: `#[warn(unreachable_code)]` on by default
+    = note: this warning originates in the macro `todo` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+warning: value assigned to `count_num` is never read
+   --> src/main.rs:104:13
+    |
+104 |     let mut count_num = 0;
+    |             ^^^^^^^^^
+    |
+    = help: maybe it is overwritten before being read?
+    = note: `#[warn(unused_assignments)]` on by default
+
+warning: `draft_web_backend` (bin "draft_web_backend") generated 2 warnings
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.19s
+     Running `target/debug/draft_web_backend`
+[Player { id: 0, name: "marble", power: 2799, leader: 1 }, Player { id: 1, name: "zippo", power: 2875, leader: 0 }]
+[Player { id: 0, name: "marble", power: 2799, leader: 1 }, Player { id: 1, name: "zippo", power: 2875, leader: 0 }]
+[Player { id: 0, name: "marble", power: 2799, leader: 1 }, Player { id: 1, name: "zippo", power: 2875, leader: 0 }]
+[Player { id: 0, name: "marble", power: 2799, leader: 1 }, Player { id: 1, name: "zippo", power: 2875, leader: 0 }]
+[Player { id: 0, name: "marble", power: 2799, leader: 1 }, Player { id: 1, name: "zippo", power: 2875, leader: 0 }]
+[Player { id: 0, name: "marble", power: 2799, leader: 1 }, Player { id: 1, name: "zippo", power: 2875, leader: 0 }]
+[Player { id: 0, name: "marble", power: 2799, leader: 1 }, Player { id: 1, name: "zippo", power: 2875, leader: 0 }]
+[Player { id: 0, name: "marble", power: 2799, leader: 1 }, Player { id: 1, name: "zippo", power: 2875, leader: 0 }]
+   Compiling draft_web_backend v0.1.0 (/home/marble72/draft_web_react/draft_web_backend)
+warning: unreachable statement
+   --> src/main.rs:120:9
+    |
+118 |         todo!();
+    |         ------- any code following this expression is unreachable
+119 |         // draftテーブルを初期化する
+120 |         todo!();
+    |         ^^^^^^^ unreachable statement
+    |
+    = note: `#[warn(unreachable_code)]` on by default
+    = note: this warning originates in the macro `todo` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+warning: value assigned to `count_num` is never read
+   --> src/main.rs:104:13
+    |
+104 |     let mut count_num = 0;
+    |             ^^^^^^^^^
+    |
+    = help: maybe it is overwritten before being read?
+    = note: `#[warn(unused_assignments)]` on by default
+
+warning: `draft_web_backend` (bin "draft_web_backend") generated 2 warnings
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 14.96s
+     Running `target/debug/draft_web_backend`
+Player { id: 0, name: "marble", power: 2799, leader: 1 }
+Error to try INSERT
+error returned from database: (code: 1555) UNIQUE constraint failed: players.id
+Player { id: 1, name: "zippo", power: 2875, leader: 0 }
+[Player { id: 1, name: "zippo", power: 2875, leader: 0 }]
+Player { id: 1, name: "zippo", power: 2875, leader: 0 }
+Error to try INSERT
+error returned from database: (code: 1555) UNIQUE constraint failed: players.id
+Player { id: 0, name: "marble", power: 2799, leader: 1 }
+Player { id: 1, name: "zippo", power: 2875, leader: 0 }
+Player { id: 0, name: "marble", power: 2799, leader: 1 }
+[Player { id: 0, name: "marble", power: 2799, leader: 1 }]
+[Player { id: 0, name: "marble", power: 2799, leader: 1 }]
+[Player { id: 0, name: "marble", power: 2799, leader: 1 }]
+[Player { id: 0, name: "marble", power: 2799, leader: 1 }]
+[Player { id: 0, name: "marble", power: 2799, leader: 1 }]
+[]
+warning: unreachable statement
+   --> src/main.rs:120:9
+    |
+118 |         todo!();
+    |         ------- any code following this expression is unreachable
+119 |         // draftテーブルを初期化する
+120 |         todo!();
+    |         ^^^^^^^ unreachable statement
+    |
+    = note: `#[warn(unreachable_code)]` on by default
+    = note: this warning originates in the macro `todo` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+warning: value assigned to `count_num` is never read
+   --> src/main.rs:104:13
+    |
+104 |     let mut count_num = 0;
+    |             ^^^^^^^^^
+    |
+    = help: maybe it is overwritten before being read?
+    = note: `#[warn(unused_assignments)]` on by default
+
+warning: `draft_web_backend` (bin "draft_web_backend") generated 2 warnings
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.17s
+     Running `target/debug/draft_web_backend`
+[Player { id: 0, name: "marble", power: 2799, leader: 1 }, Player { id: 1, name: "zippo", power: 2875, leader: 0 }]
+[Player { id: 0, name: "marble", power: 2799, leader: 1 }, Player { id: 1, name: "zippo", power: 2875, leader: 0 }]
+[Player { id: 0, name: "marble", power: 2799, leader: 1 }, Player { id: 1, name: "zippo", power: 2875, leader: 0 }]
+[Player { id: 0, name: "marble", power: 2799, leader: 1 }, Player { id: 1, name: "zippo", power: 2875, leader: 0 }]
